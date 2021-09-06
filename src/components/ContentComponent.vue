@@ -13,8 +13,12 @@
     <span class="text-lg text-gray-600 font-extralight">
       {{ content.name2 }}
     </span>
+    <!-- Description -->
+    <span class="text-xl" v-if="content.description">
+      {{ content.description }}
+    </span>
     <!-- Links -->
-    <span class="flex flex-col space-y-2 sm:space-y-0 sm:space-x-3 sm:flex-row" v-if="content.links.length > 0">
+    <span class="flex flex-col p-3 space-y-2 sm:space-y-0 sm:space-x-3 sm:flex-row" v-if="content.links.length > 0">
       <link-component
         v-for="link in content.links"
         :key="link.link"
@@ -23,11 +27,7 @@
         {{ link.title }}
       </link-component>
     </span>
-    <!-- Description -->
-    <span class="text-xl" v-if="content.description">
-      {{ content.description }}
-    </span>
-    <div class="flex flex-col p-3">
+    <div class="flex flex-col">
       <!-- Event -->
       <div class="flex space-x-3" v-if="content.events.length > 0">
         <span>Events:</span>
