@@ -9,7 +9,7 @@
         bg-gradient-to-tr
         from-white
         to-gray-300
-        text-gray-500
+        text-gray-900
         hover:text-gray-800
         hover:shadow-xl
         transition-all
@@ -29,7 +29,7 @@
       :key="social.name"
       :href="social.link"
     >
-      <i :class="`text-xl sm:text-4xl  fa fa-${social.icon}`"></i>
+      <img class="w-6 sm:w-8 opacity-70" :src="`${social.icon}.png`" />
     </a>
   </div>
 </template>
