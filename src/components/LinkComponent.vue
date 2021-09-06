@@ -4,6 +4,7 @@
     @mouseenter="hover = true"
     @mouseleave="hover = false"
     :href="href"
+    target="blanck"
   >
     <slot></slot>
   </a>
