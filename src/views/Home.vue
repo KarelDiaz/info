@@ -62,6 +62,20 @@ export default {
             name: "Work",
             contents: [
               {
+                name: "Influencer Advisor",
+                name2: "Informage Studio",
+                dateStart: "01-11-2021",
+                dateEnd: "15-11-2021",
+                description:
+                  "A web site to finde influncer for your bussinnes.",
+                events: [],
+                role: "Frontend Developer",
+                team: "3 Developers",
+                tasks: ["Frontend"],
+                technologies: ["Laravel", "Vue", "Tailwind"],
+                links: []
+              },
+              {
                 name: "Colaboracion Ciudadana",
                 name2: "Sadeco",
                 dateStart: "01-10-2021",
@@ -77,7 +91,7 @@ export default {
                   {
                     title: "Sadeco here",
                     link: "https://www.sadeco.es/"
-                  },
+                  }
                 ]
               },
               {
