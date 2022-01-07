@@ -3,7 +3,7 @@
     <!-- Name and date -->
     <div class="flex flex-col-reverse sm:items-end sm:flex-row sm:space-x-3">
       <span class="text-3xl font-bold text-gray-700">{{ content.name }} </span>
-      <i class="text-gray-400 w-52">
+      <i class="text-gray-400 w-52 min-w-max">
         {{ content.dateStart }}
         {{ content.dateStart || content.dateEnd ? " - " : "" }}
         {{ content.dateEnd }}

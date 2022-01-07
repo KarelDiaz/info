@@ -62,6 +62,19 @@ export default {
             name: "Work",
             contents: [
               {
+                name: "Bolsa de Traspaso",
+                name2: "Informage Studio",
+                dateStart: "30-11-2021",
+                dateEnd: "30-12-2021",
+                description: "A web site to manage your business.",
+                events: [],
+                role: "Frontend Developer",
+                team: "2 Developers",
+                tasks: ["Mockup"],
+                technologies: ["Html", "Css", "JavaScript"],
+                links: []
+              },
+              {
                 name: "Influencer Advisor",
                 name2: "Informage Studio",
                 dateStart: "01-11-2021",
@@ -214,6 +227,25 @@ export default {
                   {
                     title: "You can look at the university site",
                     link: "https://uci.cu"
+                  }
+                ]
+              },
+              {
+                name: "IPVCE - Vladimir Ilich Lenin",
+                name2: "Bachelor",
+                dateStart: "2009",
+                dateEnd: "2012",
+                description: "",
+                events: [],
+                role: "",
+                team: "",
+                tasks: [],
+                technologies: [],
+                links: [
+                  {
+                    title: "You can look at here",
+                    link:
+                      "https://www.ecured.cu/Instituto_Preuniversitario_Vocacional_de_Ciencias_Exactas_Vladimir_Ilich_Lenin"
                   }
                 ]
               }

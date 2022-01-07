@@ -4,7 +4,7 @@
 
 <style lang="scss">
 @import "./animations/animations.scss";
-*{
-  @apply font-serif
+* {
+  @apply font-serif;
 }
 </style>
