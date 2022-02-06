@@ -1,5 +1,5 @@
 <template>
-  <div class="flex p-3 space-x-3 hidden">
+  <div class="flex p-3 space-x-3">
     <a
       class="
         flex
