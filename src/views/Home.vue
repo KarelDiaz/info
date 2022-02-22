@@ -13,20 +13,20 @@
 </template>
 
 <script>
-import data from "../../data";
+import data from '../../data';
 
-import HistoryComponent from "../components/HistoryComponent.vue";
-import PersonalComponent from "../components/PersonalComponent.vue";
+import HistoryComponent from '../components/HistoryComponent.vue';
+import PersonalComponent from '../components/PersonalComponent.vue';
 
 export default {
   components: {
     HistoryComponent,
-    PersonalComponent
+    PersonalComponent,
   },
   data() {
     return {
-      info: data
+      info: data,
     };
-  }
+  },
 };
 </script>

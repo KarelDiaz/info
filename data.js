@@ -38,6 +38,7 @@ const data = {
     {
       name: 'Work',
       contents: [
+        /*
         // Ta-Tung
         {
           name: 'Ta-Tung',
@@ -113,7 +114,7 @@ const data = {
               link: 'https://www.sadeco.es/',
             },
           ],
-        },
+        },*/
         // Caser Starbien
         {
           name: 'Caser Starbien',

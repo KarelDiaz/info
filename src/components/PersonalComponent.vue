@@ -9,9 +9,21 @@
       class="absolute top-0 left-0 flex flex-col w-full h-full p-3 text-transparent font-extralight bg-clip-text bg-gradient-to-b from-blue-500 to-blue-800 filter drop-shadow-md"
     >
       <span
-        class="text-3xl font-bold transition-all duration-500 sm:text-6xl pr-28"
+        class="text-xl font-bold transition-all duration-500 sm:text-2xl pr-28"
       >
         {{ info.name }}
+      </span>
+      <span>
+        kdiazalfonso94@gmail.com
+      </span>
+      <span>
+        +5354653411
+      </span>
+      <span>
+        LinkedIn: linkedin.com/in/karel-diaz-alfonso-7737a6122/
+      </span>
+      <span>
+        GitHub: github.com/KarelDiaz
       </span>
     </div>
     <!-- Image -->
@@ -28,7 +40,7 @@
 </template>
 
 <script>
-import SocialMedia from "./SocialMedia.vue";
+import SocialMedia from './SocialMedia.vue';
 export default {
   components: { SocialMedia },
   props: {

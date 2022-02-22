@@ -18,7 +18,7 @@
       {{ content.description }}
     </span>
     <!-- Links -->
-    <span class="flex flex-col p-3 space-y-2 sm:space-y-0 sm:space-x-3 sm:flex-row" v-if="content.links.length > 0">
+    <span class="flex flex-col p-3 space-y-2 sm:space-y-0 sm:space-x-3 sm:flex-row hidden" v-if="content.links.length > 0">
       <link-component
         v-for="link in content.links"
         :key="link.link"
