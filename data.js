@@ -38,7 +38,48 @@ const data = {
     {
       name: 'Work',
       contents: [
-        /*
+        // Blackjack
+        {
+          name: 'Blackjack',
+          name2: 'Informage Studio',
+          dateStart: '01-05-2022',
+          dateEnd: '30-05-2022',
+          description: 'Bet roulette.',
+          events: [],
+          role: 'Frontend Developer',
+          team: '1 Developers',
+          tasks: ['Bet blackjack cliente.'],
+          technologies: ['Vue'],
+          links: [],
+        },
+        // KloutFood Web Corporativa
+        {
+          name: 'KloutFood Web Corporativa',
+          name2: 'Informage Studio',
+          dateStart: '01-04-2021',
+          dateEnd: '30-04-2022',
+          description: 'A web site to show info about Klout Food.',
+          events: [],
+          role: 'Frontend Developer',
+          team: '1 Developers',
+          tasks: ['Mockup'],
+          technologies: ['Html', 'Css', 'JavaScript', 'Php'],
+          links: [],
+        },
+        // Superruleta
+        {
+          name: 'Superruleta',
+          name2: 'Informage Studio',
+          dateStart: '20-02-2022',
+          dateEnd: '06-05-2022',
+          description: 'Bet roulette.',
+          events: [],
+          role: 'Frontend Developer',
+          team: '1 Developers',
+          tasks: ['Bet roulete cliente.'],
+          technologies: ['Vue'],
+          links: [],
+        },
         // Ta-Tung
         {
           name: 'Ta-Tung',
@@ -114,7 +155,7 @@ const data = {
               link: 'https://www.sadeco.es/',
             },
           ],
-        },*/
+        },
         // Caser Starbien
         {
           name: 'Caser Starbien',
